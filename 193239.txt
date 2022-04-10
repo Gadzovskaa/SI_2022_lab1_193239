@@ -1,0 +1,109 @@
+git init
+git clone https://github.com/Gadzovskaa/SI_2022_lab1_193239
+cd SI_2022_lab1_193239
+git add shopping_list.txt
+git commit -m "Add 5 items to the shopping list"
+git commit -a -m "Add quantities to the items."
+git branch branch1
+git branch branch2 
+git log 
+commit e6ec31a315db3cbaa1858e2d7635a0da22c3862f (HEAD -> master, branch2, branch1)
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:19:31 2022 +0200
+
+Add quantities to the items.
+
+commit 27c2c94767982d432801863e0c987bdbd11713c6
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:17:57 2022 +0200
+
+Add 5 items to the shopping list
+
+commit 427eb3bc217c3cfafebd78c4f28ce38001c39d1a (origin/master, origin/HEAD)
+Author: Gadzovskaa <102154629+Gadzovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 15:06:13 2022 +0200
+
+Update README.md
+
+commit e5803fffa399df994ab6639145f1d26ccbab0652
+Author: Gadzovskaa <102154629+Gadzovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 15:05:12 2022 +0200
+
+Initial commit
+
+git push --all origin
+git checkout branch1
+git commit -a -m "Change quantity of item #5".
+Git checkout master
+git commit -a -m "Change quantity of item #2"
+git push –all origin
+git checkout branch2
+git commit -a -m "Modify item #4"
+git log
+commit fd92114f1aee2c2c54c3e0c0ad7e7ff56354c06a (HEAD -> branch2)
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:39:35 2022 +0200
+
+    Modify item #4.
+
+commit e6ec31a315db3cbaa1858e2d7635a0da22c3862f (origin/branch2)
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:19:31 2022 +0200
+
+    Add quantities to the items.
+
+commit 27c2c94767982d432801863e0c987bdbd11713c6
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:17:57 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 427eb3bc217c3cfafebd78c4f28ce38001c39d1a
+Author: Gadzovskaa <102154629+Gadzovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 15:06:13 2022 +0200
+
+    Update README.md
+
+commit e5803fffa399df994ab6639145f1d26ccbab0652
+Author: Gadzovskaa <102154629+Gadzovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 15:05:12 2022 +0200
+
+Git add
+git commit --amend -m “Modify item #4 and add item #6”
+git log
+commit c44ab0c59f06b363bb3386dcc33a5a41c3996d37 (HEAD -> branch2)
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:39:35 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit e6ec31a315db3cbaa1858e2d7635a0da22c3862f (origin/branch2)
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:19:31 2022 +0200
+
+    Add quantities to the items.
+
+commit 27c2c94767982d432801863e0c987bdbd11713c6
+Author: andrea661355 <73585408+andrea661355@users.noreply.github.com>
+Date:   Sun Apr 10 15:17:57 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 427eb3bc217c3cfafebd78c4f28ce38001c39d1a
+Author: Gadzovskaa <102154629+Gadzovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 15:06:13 2022 +0200
+
+    Update README.md
+
+commit e5803fffa399df994ab6639145f1d26ccbab0652
+Author: Gadzovskaa <102154629+Gadzovskaa@users.noreply.github.com>
+Date:   Sun Apr 10 15:05:12 2022 +0200
+
+    Initial commit
+
+Git checkout master
+Git merge branc1
+*mi sejavuva greska koga probuvam da mergnam master so branch2 tuka se vklucuvam na samiot shopping list kade sto gi gledam promenitekoise napraveni i ja popravam greskata odnosno razlikata potoa koristam 
+git commit -a -m "bugfix"
+git merge branch2  kade mi ukazuva deka se e up to date :)
+ 
