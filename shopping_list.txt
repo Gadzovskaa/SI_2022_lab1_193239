@@ -1,5 +1,5 @@
-eggs
-milk
-bread
-snikkers
-hoodies
+eggs x10
+milk x2
+bread x4
+snikkers x2
+hoodies x3
