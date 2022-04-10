@@ -1,5 +1,11 @@
 eggs x10
 milk x5
 bread x4
+<<<<<<< HEAD
 snikkers x2
 hoodies x2
+=======
+strawberry x2
+hoodies x2
+cherry x8
+>>>>>>> branch2
