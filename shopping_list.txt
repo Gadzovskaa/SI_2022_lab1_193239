@@ -1,5 +1,6 @@
 eggs x10
 milk x2
 bread x4
-snikkers x2
+strawberry x2
 hoodies x3
+cherry x8
