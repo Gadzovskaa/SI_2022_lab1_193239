@@ -1,5 +1,5 @@
 eggs x10
-milk x2
+milk x5
 bread x4
 snikkers x2
 hoodies x3
